@@ -1,8 +1,13 @@
 /*
-=====================================================
-Project : Customer Retention & Revenue Intelligence Platform
-Module  : Customer Analysis
-=====================================================
+====================================================================
+Project  : Customer Retention & Revenue Intelligence Platform
+Module   : Customer Analysis
+Author   : Mohd Zaid Bin Haneef
+
+Description:
+This module analyzes customer behavior, revenue contribution,
+profitability, customer distribution, and high-value customers.
+====================================================================
 */
 
 USE customer_retention_db;
