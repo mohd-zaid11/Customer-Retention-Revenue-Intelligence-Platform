@@ -26,7 +26,7 @@ SELECT
 FROM superstore;
 
 /*
-Expected Insight
+Insight:
 - Total Revenue: 2297200.86
 - Total Profit: 286397.02
 - Total Orders: 5009
@@ -48,7 +48,7 @@ GROUP BY category
 ORDER BY total_revenue DESC;
 
 /*
-Expected Insight:
+Insight:
 - Highest Revenue Category: Consumer with total revenue of 1161401.34
 - Lowest Revenue Category: Home Office with total revenue of 429653.15
 */
@@ -67,7 +67,7 @@ GROUP BY category
 ORDER BY total_profit DESC;
 
 /*
-Expected Insight:
+Insight:
 - Highest Profit Category: Technology (Total Profit- 145454.95)
 - Lowest Profit Category: Furniture (Total Profit- 18451.27)
 */
@@ -86,7 +86,7 @@ GROUP BY region
 ORDER BY total_revenue DESC;
 
 /*
-Expected Insight:
+Insight:
 - Highest Revenue Region: West (Total Revenue- 725457.82)
 - Lowest Revenue Region: South (Total Revenue- 391721.91)
 */
@@ -105,7 +105,7 @@ GROUP BY region
 ORDER BY total_profit DESC;
 
 /*
-Expected Insight:
+Insight:
 - Highest Profit Region: West (Total Profit- 108418.45)
 - Lowest Profit Region: Central (Total Profit- 39706.36)
 */
